@@ -1,0 +1,20 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": false,
+  "htmlWhitespaceSensitivity": "ignore",
+  "vueIndentScriptAndStyle": true,
+  "brace-style": "1tbs",
+  "endOfLine": "auto",
+  "arrowParens": "avoid",
+  "semi": true,
+  "bracketSpacing": true,
+  "max-len": [
+    "error",
+    {
+      "code": 10,
+      "ignorePattern": "^\\s*constructor\\s*\\(.*\\)\\s*{\\s*$"
+    }
+  ]
+}
